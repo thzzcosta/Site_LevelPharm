@@ -2,7 +2,7 @@
 p{
     color: white;
     
-    font-size: 30px;
+    font-size: 25px;
     font-family: "Goldman Bold";
     margin: 15px;
     text-shadow: 1px 1px 1px #111111;
@@ -14,8 +14,10 @@ body{
     background-size: 100%;
 }
 h1{
-    color:purple;
-    text-align:center;
+    font-family: "Goldman Bold";
+    color:white;
+    text-align:left;
+    font-size: 30 px; 
     text-shadow: 2px 2px 2px #111111;
 }
 * {
@@ -36,9 +38,10 @@ header{
 footer{
     clear: both;
     background-color: #193094;
-    height: 300px;
+    height: 350px;
     text-align:right;
     padding: 0px;
+    margin-top: -50px;
     text-shadow: 1px 1px 1px #111111;
 }
 /* Class */
@@ -90,12 +93,41 @@ footer{
     clear:both;
     background-color: white;
     min-height: 1000px;
+   
+}
+
+#serviços{
+    clear:both;
+    background-color:#193094;
+    min-height: 1000px;
     margin-top: 440px;
 }
+.consultoria{
+    padding: 50px;
+    text-align: justify;
+    width: 700px;
+}
+.consultorio{
+    padding: 50px;
+    text-align: justify;
+    width: 700px;
+}
+.segurança{
+    padding: 50px;
+    text-align: justify;
+    width: 700px;
+}
+.pops{
+    padding: 50px;
+    text-align: justify;
+    width: 700px;
+}
+
 #contato{
     clear:both;
     background-color: black;
     min-height: 1000px;
     
 }
+
 
