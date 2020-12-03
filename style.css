@@ -1,29 +1,84 @@
-*{
-    margin: 0;
-    padding: 0;
-    border-style: none;
-    position: relative;
+p{
+    color: white;
+    
+    font-size: 25px;
     font-family: "Goldman Bold";
-}
-html, body{
-    overflow-x: hidden;
-    box-sizing: border-box;
-}
-body > *{
-    width: 100%;
+    margin: 15px;
+    text-shadow: 1px 1px 1px #111111;
 
+}
+body{
+    background-image:url('lab.jpg');
+    height:100%;
+    background-size: 100%;
+}
+h1{
+    font-family: "Goldman Bold";
+    color:white;
+    text-align:left;
+    font-size: 30 px; 
+    text-shadow: 2px 2px 2px #111111;
+}
+* {
+    margin:0;
+    padding:0;
+}
+header{
+ /*   background-color:#193094;*/
+    height: 100px;
+    padding: 0px;
+}
+#principal{
+   
+    clear:both;
+    background-size: 100%;
+    padding:0 0 0 0;
+}
+footer{
+    clear: both;
+    background-color: #193094;
+    height: 350px;
+    text-align:right;
+    padding: 0px;
+    margin-top: -50px;
+    text-shadow: 1px 1px 1px #111111;
+}
+/* Class */
+.efeito{
+   /* background-color: rgba(0, 0, 0, 0.5);*/
+    padding: 80px 0px 100px 0;
+}
+.container{
+    width: 1080px;
+    margin:0 auto;
+}
+.intro{
+    width: 700px;
+    margin:0 auto;
+    text-align:justify;
+    float:left;
+    padding:50px 0 0 50px;
+}
+#logo {
+    float:left;
+}
+.logo {
+    float:left;
+    height: 130px;
+    width: 130px;
+    border-radius: 25px;
+    
 }
 #menu{
     float:right;
-    margin-right: 30px;
-    align-items: center;
+    margin-top:40px
 }
 #menu a{
     padding: 15px 20px 20px 20px;
     text-decoration:none;
     Color: white;
     text-shadow: 1px 1px #111111;
-    font-size: calc(1px + 2.5vw);
+    font-size: 30px;
     font-family: "Goldman Bold";
     font:bold;
 }
@@ -32,77 +87,44 @@ body > *{
    background-color:white;
    color: #193094;
    border-radius: 20px;
-   transition:0.75s;
 }
-nav{
-    position: absolute;
-    top:0;
-    left:0;
-    padding: 4vh, 5vw;
-    background-color: transparent;
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 100;
-}
-.logo{
-    margin-left:7%;
-    width:calc(12vw);
-    border-radius: 25px;
-}
-#home .frase, p{
-    font-size: 5vw;
-    color:white;
-}
-.frase{
-    z-index: 50;
-    float: left;
-    align-items: center;
-    margin-top: -30%;
-    margin-left: 10%;
+#quemSomos{
+    clear:both;
+    background-color: white;
+    min-height: 1000px;
+   
 }
 
-
-#serviços, p{
-    font-size: 2vw;
-    color:white;
-}
-#serviços, h1{
-    padding-bottom: 3%;
-    font-size: 3vw;
-    color:white;
-}
 #serviços{
     clear:both;
     background-color:#193094;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
+    min-height: 1000px;
+    margin-top: 440px;
 }
 .consultoria{
-    padding: 5vh;
+    padding: 50px;
     text-align: justify;
-    width: 70%;
+    width: 700px;
 }
 .consultorio{
-    padding: 5vh;
+    padding: 50px;
     text-align: justify;
-    width: 70%;
+    width: 700px;
 }
 .segurança{
-    padding: 5vh;
+    padding: 50px;
     text-align: justify;
-    width: 70%;
+    width: 700px;
 }
 .pops{
-    padding: 5vh;
+    padding: 50px;
     text-align: justify;
-    width: 70%;
+    width: 700px;
 }
 
-#quemSomos{
-    width: 100%;
-    z-index: 100;
-    background-color: rgba(25, 48, 148,0.5);
+#contato{
+    clear:both;
+    background-color: black;
+    min-height: 1000px;
+    
 }
