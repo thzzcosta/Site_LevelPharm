@@ -96,6 +96,7 @@ nav{
 
 
 
+
 #serviços, p{
     font-size: 2vw;
     color:white;
@@ -112,35 +113,70 @@ nav{
     flex-direction: column;
     width: 100%;
 }
-
-
+#serviços > h1{
+    position: absolute;
+    margin-top: 3vh;
+    font-size: 5vw;
+    color:white;
+    text-align:center;
+    align-items: center;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
 .consultoria{
-    padding: 5vh 5vw 5vh 25vw;
+    padding: 12.5% 5vw 5vh 25vw;
     text-align: justify;
-    width: 70%;
+    width: 60%;
+    position:relative;
 }
 .consultoria-imagem{
-    top:0px;
-    left:0px;
+    width: 100%;
+    margin-top: 13%;
+    left:3%;
     float:left;
-    width: 50px;
-    height: 15px;
+    position: absolute;
 }
-
 .consultorio{
-    padding: 5vh 5vw 5vh 25vw;
+    padding: 5% 5vw 5vh 25vw;
     text-align: justify;
-    width: 70%;
+    width: 60%;
+    position: relative;
+}
+.consultorio-imagem{
+    width: 100%;
+    margin-top: -2%;
+    left:3.4%;
+    float:left;
+    position: absolute;
 }
 .segurança{
-    padding: 5vh 5vw 5vh 25vw;
+    padding: 5% 5vw 5vh 25vw;
     text-align: justify;
-    width: 70%;
+    width: 60%;
+    position: relative;
+}
+.segurança-imagem{
+    width: 100%;
+    margin-top: 0%;
+    left:3.4%;
+    float:left;
+    position: absolute;
 }
 .pops{
-    padding: 5vh 5vw 5vh 25vw;
+    padding: 5% 5vw 5vh 25vw;
     text-align: justify;
-    width: 70%;
+    width: 60%;
+    position:relative;
+}
+.pops-imagem{
+    width: 100%;
+    margin-top: 0%;
+    left: 3.4%;
+    float:left;
+    position: absolute;
 }
 
 #quemSomos{
@@ -156,8 +192,21 @@ nav{
         height: 100%;
         z-index: 50;
 }
+#quemSomos > .texto-historia > h1{
+    top:0px;
+    left:0px;
+    z-index: 70;
+    width:100%;
+    margin-top: 3%;
+    padding-bottom: 3%;
+    font-size: 4vw;
+    text-align:center;
+    align-items:center;
+    color:white;
+    position:absolute;
+}
 #quemSomos > .texto-historia > p {
-    font-size: 2.5vw;
+    font-size: 2.25vw;
     color:white;
     text-align:center;
     align-items: center;
@@ -168,12 +217,15 @@ nav{
     flex-direction: column;
     position:absolute;
     z-index: 70;
-    padding: 20px 20vw 10vh 20vw;
-
+    padding: 10% 20vw 10vh 20vw;
 }
-
-
-
+#quemSomos > .fejepe{
+    text-align:center;
+    align-items: center;
+    z-index: 70;
+    position: absolute;
+    margin-top: 48%;
+}
 
 
 
@@ -186,6 +238,98 @@ nav{
         height: 100%;
         z-index: 50;
 }
+.visao-texto{
+    text-align:center;
+    align-items: center;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position:absolute;
+    z-index: 70;
+}
+#visao > .visao-texto > p{
+    font-size: 2.25vw;
+    color:white;
+    text-align:center;
+    align-items: center;
+    left: 0px;
+    top: 0px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    position:absolute;
+    z-index: 70;
+    padding: 10% 20vw 10vh 20vw;
+}
+.visao-imagem{
+    width: 30%;
+    left: 0px;
+    top: 0px;
+    margin-top: 5%;
+    left:3.4%;
+    float:left;
+    z-index: 70;
+    position: absolute;
+}
+#visao > .visao-imagem > h1{
+    padding-left: 8.5%;
+    margin-bottom: -10%;
+    font-size: 4vw;
+}
+
+
+
+
+#visao > .missao-texto > p {
+    font-size: 2.25vw;
+    color:white;
+    text-align:center;
+    align-items: center;
+    left: 0px;
+    top: 0px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    position:absolute;
+    z-index: 70;
+    padding: 10% 20vw 10vh 25vw;
+}
+.missao-texto{
+    text-align:center;
+    align-items: center;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    margin-top: 30%;
+    display: flex;
+    flex-direction: column;
+    position:absolute;
+    z-index: 70;
+}
+.missao-imagem{
+    width: 30%;
+    left: 0px;
+    top: 0px;
+    margin-top: 35%;
+    left:8%;
+    float:left;
+    z-index: 70;
+    position: absolute;
+}
+#visao > .missao-imagem > h1{
+    margin-left: -5%;
+    margin-bottom: 3%;
+    font-size: 4vw;
+}
+
+
+
+
+
+
+
 
 #contato{
     width: 100%;
