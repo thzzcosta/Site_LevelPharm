@@ -476,14 +476,89 @@ nav{
 
 
 footer{
-    height: 50vh;
+    height: 23vw;
     width: 100%;
     background-color: white;
     position: relative;
+    display: flex;
+    flex-direction: row;
+}
 
+#contatos{
+  width:35%;
+  height: 100%;
+  position:absolute;
+}
+#contatos > h1{
+    top:0px;
+    left:0px;
+    z-index: 70;
+    width:100%;
+    margin-top: 8.5%;
+    padding-bottom: 3%;
+    font-size: 2.5vw;
+    text-align:center;
+    align-items:center;
+    color:black;
+    position:relative;
+}
+#contatos > p {
+    top:0px;
+    left:0px;
+    z-index: 70;
+    width:70%;
+    padding-left: 15%;
+    margin-top: 7%;
+    font-size: 1.5vw;
+    text-align:center;
+    align-items:center;
+    color:black;
+    position:relative;
+}
+
+
+
+
+#redes{
+    top:0;
+    left: 0;
+    width:100%;
+    height: 100%;
+    position:absolute;
 
 }
+#redes > h1 {
+    top:0px;
+    left:0px;
+    z-index: 70;
+    width:100%;
+    margin-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 3%;
+    font-size: 2.5vw;
+    text-align:center;
+    align-items:center;
+    color:black;
+    position:relative;
+}
+#redes > .links {
+    text-align:center;
+    align-items:center;
+    padding-left: 6%;
+}
+
+
+
+
+
 .mapa{
-    text-align: right;
+    justify-content: right;
+    margin-left: 77vw;
+    height: 23vw;
+    width: 23vw;
 }
-
+.mapa > iframe{
+   
+    height: 23vw;
+    width: 23vw;
+}
